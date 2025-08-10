@@ -62,7 +62,7 @@ func main() {
 
 	pr1.SetFirst(42)
 	pr1.SetSecond("world")
-	fmt.Println(pr1) // (42, world
+	fmt.Println(pr1) // (42, world)
 
 	// Проверка на равенство
 	pr2 := NewPair(42, "world")
