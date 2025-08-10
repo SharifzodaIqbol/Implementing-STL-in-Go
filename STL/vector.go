@@ -48,7 +48,7 @@ func main() {
 	fmt.Println(myVector)                  // сам вектор
 	fmt.Println("Size:=", myVector.Size()) // размер
 
-	myVector.Clear()
+	myVector.Clear() // очищаем вектор
 	if myVector.Empty() {
 		fmt.Println("Vector Empty")
 		fmt.Println("Size:=", myVector.Size()) // размер
@@ -72,5 +72,5 @@ func main() {
 	myVector.Insert(2, "Accept")
 	fmt.Println(myVector)
 
-	fmt.Println("Capacity :=", myVector.Capacity())
+	fmt.Println("Capacity :=", myVector.Capacity()) // проверим Capacity(вместимость)
 }
