@@ -69,8 +69,8 @@ func main() {
 		fmt.Println("Vector not Empty")
 		fmt.Println("Size:=", myVector.Size())
 	}
-	myVector.Insert(2, "Accept")
+	myVector.Insert(2, "Accept") /// Вставим Accept на 2-й индекс
 	fmt.Println(myVector)
 
-	fmt.Println("Capacity :=", myVector.Capacity()) // проверим Capacity(вместимость)
+	fmt.Println("Capacity :=", myVector.Capacity()) /// проверим Capacity(вместимость)
 }
