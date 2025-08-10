@@ -21,7 +21,7 @@ func (v *Vector[T]) Clear() {
 }
 func (v *Vector[T]) Insert(position int, value T) error {
 	if position < 0 || position > len(*v) {
-		return fmt.Errorf("index out of range")
+		return fmt.Errorf("Index out of range")
 	}
 	*v = append(*v, value)
 	copy((*v)[position+1:], (*v)[position:])
